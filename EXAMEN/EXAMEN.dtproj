@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DARSIUZ</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABzK3RqZQiUSzFxXrbMGpPQAAAAACAAAAAAAQZgAAAAEAACAAAADdemdQkiBUskDRA8GzlBbV1PMIqdON/apdxX6lHQI/2gAAAAAOgAAAAAIAACAAAACBnMW77yT0m3SKILGvaCXQwyFAqjt/3tYOzw6cxmvkXpAAAADDG1fxLYnX8QEPlix1ruMkLkEMdcS0LaCDaLdmiWMmnB+iQWI9cKopinCSAlpxJSo6gNj5Z9Dz8FYcUXfRpLLzZjJqh4YoI/SeLcdMeI8R0GELMqwyesTnB0x8g14TLHfiF1Sxt11TIsJ4UVNGT/NhHp4EP8lDwwFPYjbuYyKm2eUhkKFhMu1qVkoHiVn9oplAAAAAeZfGVyI607WBqI3oW6V0/IE7uXV97cI1B0GSponazfJnwKXq3SGFJid0jiKlQozJ64pYH9rcTkAdBHs/5HuyKw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABzK3RqZQiUSzFxXrbMGpPQAAAAACAAAAAAAQZgAAAAEAACAAAACPHE0TkCOE9lLBSyOK/G4j014FlFlOSZQM7jnnkgB43wAAAAAOgAAAAAIAACAAAABzRR9IvbCKYht0bQj1e0N5OCFmtqkOjKoa/6GBuiyVHJAAAACsZli9FJ86nSQT76rSGEuOZsWCcCpP11BT8sxCYS8VpAhiAIsiM31mLRj3Tz/lqfPtRxeRHcV+aigXlscxo3eujPPM8wzx67J6xB5FqrhNiz3mzhnY7CEHLJPopku7oSFLuKOo5DgZLvEU7tuHRKo214injOoMPVnJQlIyWP8acvASZLwQZ+IWuf9Pac0T9dBAAAAAmvJKeZOhnhK9Q4eago2qD3MrPJtC+cn68bXY52ZY2BeFcAE4OmpT3MOqxfUggP9UeKV2UkxURZbU+7dUyhROzg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">31</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">99</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E6DE4EEB-AE78-4006-B3C7-140EEE5A1D52}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{AC257F2F-2111-47D6-A820-2C0D536CC8AF}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -227,7 +227,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.0.100;User ID=Darsiuz;Initial Catalog=DM_CYBERSHIELD;Provider=MSOLEDBSQL.1;Application Name=SSIS-Package-{C37406E5-42C4-49F2-8671-756ABCD40F2E}192.168.0.100.DM_CYBERSHIELD.Darsiuz;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.168.0.100;User ID=Darsiuz;Initial Catalog=DM_CYBERSHIELD;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{C37406E5-42C4-49F2-8671-756ABCD40F2E}192.168.0.100.DM_CYBERSHIELD.Darsiuz;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -376,7 +376,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\DARSIUZ\Descargas\Material_Examen_Final_CyberShield_Estrella\CyberShield_Respuestas_Operativas.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\DARSIUZ\Descargas\Material_Examen_Final_CyberShield_Estrella\CyberShield_Respuestas_Operativas.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -644,6 +644,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
